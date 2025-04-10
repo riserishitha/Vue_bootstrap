@@ -1,15 +1,13 @@
 <template>
-  <div class="container mt-5">
-    <TodoApp />
-  </div>
+  <TodoApp />
 </template>
 
-<script>
+<script setup>
 import TodoApp from './components/TodoApp.vue'
-
-export default {
-  components: {
-    TodoApp
-  }
-}
 </script>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+</style>
